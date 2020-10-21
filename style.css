@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    color: #f25c60;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: #3b6763;
+}
+button {
+    float: right;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #59c064;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    width: 200px;
+    height: 50px;
+    transition: all 0.3s linear;
+}
+button:hover {
+    background-color: #3f8846;
+}
+@media (max-width: 500px) {
+    button {
+        width: 100%;
+    }
+}
